@@ -6,7 +6,7 @@ const App = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log('Form submitted!');
-        alert('Form has been submitted!');
+        alert('The form has been submitted!');
     }; 
 
     return <Form onSubmit={handleSubmit} />;
