@@ -5,7 +5,7 @@ import Form from './components/Form';
 const App = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.error('Form submitted!');
+        console.log('Form submitted!'); // Changed from console.error to console.log
         alert('The form has been submitted!');
     }; 
 
