@@ -5,8 +5,8 @@ import Form from './components/Form';
 const App = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert('Form đã được gửi!');
-    };
+        alert('Form has been submitted!');
+    }; 
 
     return <Form onSubmit={handleSubmit} />;
 };
